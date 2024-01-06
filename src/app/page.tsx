@@ -59,10 +59,10 @@ export default function Home() {
   if (!passage || !authors) return (
     <main key="1" className="dark flex flex-col items-center justify-center min-h-screen bg-gray-800 p-">
       <h1 className="text-4xl font-bold text-white">Quoted</h1>
-      <p className="text-center text-gray-400 mb-4 max-w-lg md:text-lg">
+      <p className="text-center text-gray-400 mb-2 max-w-lg md:text-lg">
         Choose the author you believe wrote the quote below:
       </p>
-      <div className="mt-8 bg-gray-700 shadow-md rounded-lg p-6 max-w-2xl w-full mb-8">
+      <div className="mt-4 bg-gray-700 shadow-md rounded-lg p-6 max-w-2xl w-full mb-8">
         <p className="text-gray-400 text-sm italic md:text-lg">Loading...</p>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6 w-full max-w-3xl">
@@ -94,10 +94,10 @@ export default function Home() {
           <p className="text-white text-lg font-semibold">Score: {score}</p>
         </div>
       </header>
-      <p className="text-center text-gray-400 mb-4 max-w-lg md:text-lg">
+      <p className="text-center text-gray-400 mb-2 max-w-lg md:text-lg">
         Choose the author you believe wrote the quote below:
       </p>
-      <div className="mt-8 bg-gray-700 shadow-md rounded-lg p-6 max-w-2xl w-full mb-8">
+      <div className="mt-4 bg-gray-700 shadow-md rounded-lg p-6 max-w-2xl w-full mb-8">
         <p className="text-gray-400 text-sm italic md:text-lg">{`"${passage?.passage}"`}</p>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6 w-full max-w-3xl">
