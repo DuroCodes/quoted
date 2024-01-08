@@ -17,6 +17,7 @@ export const AUTHORS = {
   'colleen-hoover': 'Colleen Hoover',
   'kazuo-ishiguro': 'Kazuo Ishiguro',
   'hp-lovecraft': 'H.P. Lovecraft',
+  'min-jin-lee': 'Min Jin Lee',
 } as const;
 
 export type AuthorID = keyof typeof AUTHORS;

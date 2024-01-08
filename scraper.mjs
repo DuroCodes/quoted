@@ -27,6 +27,7 @@ const authors = [
   'colleen-hoover',
   'kazuo-ishiguro',
   'hp-lovecraft',
+  'min-jin-lee',
 ];
 
 const capitalize = (s) => s.charAt(0).toUpperCase() + s.slice(1);
