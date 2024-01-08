@@ -2,118 +2,265 @@ import { type AuthorID } from './authors';
 
 export interface Passage {
   novel: string;
-  year: number;
   passage: string;
   author: AuthorID;
 }
 
+// generated with scraper.mjs
 export const PASSAGES: Passage[] = [
   {
-    novel: 'Salem\'s Lot',
-    year: 1975,
-    passage: 'A flash of red caught his eye off to the left, and when he glanced that way, he felt a burst of pleasure and recognition. A large red barn stood on a hill far across a rising field of timothy and clover, a barn with a cupola painted white--even at this distance he could see the sun gleam on the weather vane atop that cupola. It had been there then and was still here now. It looked exactly the same. Maybe it was going to be all right after all. Then the trees blotted it out.',
-    author: 'stephen-king'
+    "novel": "On Writing: A Memoir of the Craft",
+    "passage": "You can, you should, and if you're brave enough to start, you will.",
+    "author": "stephen-king"
   },
   {
-    novel: 'It',
-    year: 1986,
-    passage: 'Smells of dirt and wet and long-gone vegetables would merge into one unmistakable ineluctable smell, the smell of the monster, the apotheosis of all monsters. It was the smell of something for which he had no name: the smell of It, crouched and lurking and ready to spring. A creature which would eat anything but which was especially hungry for boymeat.',
-    author: 'stephen-king'
+    "novel": "Rita Hayworth and Shawshank Redemption",
+    "passage": "Some birds are not meant to be caged, that's all. Their feathers are too bright, their songs too sweet and wild. So you let them go, or when you open the cage to feed them they somehow fly out past you. And the part of you that knows it was wrong to imprison them in the first place rejoices, but still, the place where you live is that much more drab and empty for their departure.",
+    "author": "stephen-king"
   },
   {
-    novel: 'The Running Grave',
-    year: 2023,
-    passage: 'He opened his damp eyes again to stare at the cross on the altar. He might not believe, but the cross meant something to him, nonetheless. It stood for Ted and Joan, for order and stability, but also for the unknowable and unresolvable, for the human craving for meaning in chaos, and for the hope of something beyond the world of pain and endless striving. Some mysteries were eternal and unresolvable by man, and there was relief in accepting that, in admitting it. Death, love, the endless complexity of human beings: only a fool would claim to fully understand any of them.',
-    author: 'jk-rowling'
+    "novel": "On Writing: A Memoir of the Craft",
+    "passage": "Books are a uniquely portable magic.",
+    "author": "stephen-king"
   },
   {
-    novel: 'A Game of Thrones',
-    year: 1996,
-    passage: 'Let him grow taller , she asked the gods. Let him know sixteen, and twenty, and fifty. Let him grow as tall as his father, and hold his own son in his arms. Please, please , please. As she watched him, this tall young man with the new beard and the direwolf prowling at his heels, all she could see was the babe they had laid at her breast at Riverrun, so long ago.',
-    author: 'george-rr-martin'
+    "novel": "Harry Potter and the Chamber of Secrets",
+    "passage": "It is our choices, Harry, that show what we truly are, far more than our abilities.",
+    "author": "jk-rowling"
   },
   {
-    novel: 'The Da Vinci Code',
-    year: 2003,
-    passage: 'History is always written by the winners. When two cultures clash, the loser is obliterated, and the winner writes the history books-books which glorify their own cause and disparage the conquered foe. As Napoleon once said, \'What is history, but a fable agreed upon?\'',
-    author: 'dan-brown'
+    "novel": "Harry Potter and the Deathly Hallows",
+    "passage": "Do not pity the dead, Harry. Pity the living, and, above all those who live without love.",
+    "author": "jk-rowling"
   },
   {
-    novel: 'The Firm',
-    year: 1991,
-    passage: 'When you were in law school you had some noble idea of what a lawyer should be. A champion of individual rights; a defender of the Constitution; a guardian of the oppressed; an advocate for your client\'s principles. Then after you practice for six months you realize we\'re nothing but hired guns. Mouthpieces for sale to the highest bidder, available to anybody, any crook, any sleazebag with enough money to pay our outrageous fees. Nothing shocks you. It\'s supposed to be an honorable profession, but you\'ll meet so many crooked lawyers you\'ll want to quit and find an honest job. Yeah, Mitch, you\'ll get cynical. And it\'s sad, really.',
-    author: 'john-grisham'
+    "novel": "Harry Potter and the Goblet of Fire",
+    "passage": "Numbing the pain for a while will make it worse when you finally feel it.",
+    "author": "jk-rowling"
   },
   {
-    novel: 'My Sister\'s Keeper',
-    year: 2004,
-    passage: 'There should be a statute of limitation on grief. A rulebook that says it is all right to wake up crying, but only for a month. That after 42 days you will no longer turn with your heart racing, certain you have heard her call out your name. That there will be no fine imposed if you feel the need to clean out her desk; take down her artwork from the refrigerator; turn over a school portrait as you pass - if only because it cuts you fresh again to see it. That it\'s okay to measure the time she has been gone, the way we once measured her birthdays.',
-    author: 'jodi-picoult'
+    "novel": "A Song of Ice and Fire, 5-Book Boxed Set: A Game of Thrones, A Clash of Kings, A Storm of Swords, A Feast for Crows, A Dance with Dragons",
+    "passage": "Never forget what you are, for surely the world will not. Make it your strength. Then it can never be your weakness.",
+    "author": "george-rr-martin"
   },
   {
-    novel: 'Twilight',
-    year: 2005,
-    passage: 'The right thing isn\'t always real obvious. Sometimes the right thing for one person is the wrong thing for someone else. So...good luck figuring that out.',
-    author: 'stephenie-meyer'
+    "novel": "A Game of Thrones",
+    "passage": "Never forget what you are, for surely the world will not. Make it your strength. Then it can never be your weakness. Armour yourself in it, and it will never be used to hurt you.",
+    "author": "george-rr-martin"
   },
   {
-    novel: 'The Notebook',
-    year: 1996,
-    passage: 'They didn\'t agree on much. In fact, they didn\'t agree on anything. They fought all the time and challenged each other ever day. But despite their differences, they had one important thing in common. They were crazy about each other.',
-    author: 'nicholas-sparks'
+    "novel": "A Clash of Kings",
+    "passage": "I will hurt you for this. I don't know how yet, but give me time. A day will come when you think yourself safe and happy, and suddenly your joy will turn to ashes in your mouth, and you'll know the debt is paid.",
+    "author": "george-rr-martin"
   },
   {
-    novel: 'The Hunger Games',
-    year: 2008,
-    passage: 'And while I was talking, the idea of actually losing Peeta hit me again and I realized how much I don\'t want him to die. And it\'s not about the sponsors. And it\'s not about what will happen when we get home. And it\'s not just that I don\'t want to be alone. It\'s him. I do not want to lose the boy with the bread.',
-    author: 'suzanne-collins'
+    "novel": "Digital Fortress",
+    "passage": "Everything is possible. The impossible just takes longer.",
+    "author": "dan-brown"
   },
   {
-    novel: 'Fifty Shades of Grey',
-    year: 2011,
-    passage: 'Drawing up my knees, I fold in on myself. I want to make myself as small as possible. Perhaps this nonsensical pain will be smaller the smaller I am. Placing my head on my knees, I let the irrational tears fall unrestrained. I am crying over the loss of something I never had. How ridiculous.',
-    author: 'el-james'
+    "novel": "The Da Vinci Code",
+    "passage": "History is always written by the winners. When two cultures clash, the loser is obliterated, and the winner writes the history books-books which glorify their own cause and disparage the conquered foe. As Napoleon once said, 'What is history, but a fable agreed upon?",
+    "author": "dan-brown"
   },
   {
-    novel: 'Gone Girl',
-    year: 2012,
-    passage: 'It\'s a very difficult era in which to be a person, just a real, actual person, instead of a collection of personality traits selected from an endless Automat of characters.',
-    author: 'gillian-flynn'
+    "novel": "Inferno",
+    "passage": "Remember tonight...for it's the beginning of forever. - Dante Alighieri",
+    "author": "dan-brown"
   },
   {
-    novel: 'The Martian',
-    year: 2011,
-    passage: 'But really, they did it because every human being has a basic instinct to help each other out. It might not seem that way sometimes, but it\'s true.',
-    author: 'andy-weir'
+    "novel": "The Rainmaker",
+    "passage": "Don't compromise yourself - you're all you have.",
+    "author": "john-grisham"
   },
   {
-    novel: 'The Lightning Thief',
-    year: 2005,
-    passage: 'All I could think of was that the teachers must\'ve found the illegal stash of candy I\'d been selling out of my dorms room. Or maybe they\'d realized I got my Essay on Tom Sawyer from the Internet without ever reading the book and now they were going to take away my grade. Or worse, they were going to make me read the book.',
-    author: 'rick-riordan'
+    "novel": "Skipping Christmas",
+    "passage": "(He) paused for a second and once more marveled at the speed with which one person's private business could be so thoroughly kicked around the neighborhood.",
+    "author": "john-grisham"
   },
   {
-    novel: 'The Fault in Our Stars',
-    year: 2012,
-    passage: 'I\'m in love with you, and I\'m not in the business of denying myself the simple pleasure of saying true things. I\'m in love with you, and I know that love is just a shout into the void, and that oblivion is inevitable, and that we\'re all doomed and that there will come a day when all our labor has been returned to dust, and I know the sun will swallow the only earth we\'ll ever have, and I am in love with you.',
-    author: 'john-green'
+    "novel": "The Rainmaker",
+    "passage": "A battered wife is a married woman until she gets a divorce. Or until she kills the bastard.",
+    "author": "john-grisham"
   },
   {
-    novel: 'The Hate U Give',
-    year: 2017,
-    passage: 'Daddy once told me there\'s a rage passed down to every black man from his ancestors, born the moment they couldn\'t stop the slave masters from hurting their families. Daddy also said there\'s nothing more dangerous than when that rage is activated.',
-    author: 'angie-thomas'
+    "novel": "My Sister's Keeper",
+    "passage": "You don't love someone because they're perfect, you love them in spite of the fact that they're not.",
+    "author": "jodi-picoult"
   },
   {
-    novel: 'It Ends with Us',
-    year: 2016,
-    passage: 'Cycles exist because they are excruciating to break. It takes an astronomical amount of pain and courage to disrupt a familiar pattern. Sometimes it seems easier to just keep running in the same familiar circles, rather than facing the fear of jumping and possibly not landing on your feet.',
-    author: 'colleen-hoover'
+    "novel": "Change of Heart",
+    "passage": "There's always going to be bad stuff out there. But here's the amazing thing -- light trumps darkness, every time. You stick a candle into the dark, but you can't stick the dark into the light.",
+    "author": "jodi-picoult"
   },
   {
-    novel: 'Never Let Me Go',
-    year: 2005,
-    passage: 'I keep thinking about this river somewhere, with the water moving really fast. And these two people in the water, trying to hold onto each other, holding on as hard as they can, but in the end it\'s just too much. The current\'s too strong. They\'ve got to let go, drift apart. That\'s how it is with us. It\'s a shame, Kath, because we\'ve loved each other all our lives. But in the end, we can\'t stay together forever.',
-    author: 'kazuo-ishiguro'
+    "novel": "My Sister's Keeper",
+    "passage": "Let me tell you this: if you meet a loner, no matter what they tell you, it's not because they enjoy solitude. It's because they have tried to blend into the world before, and people continue to disappoint them.",
+    "author": "jodi-picoult"
   },
+  {
+    "novel": "Twilight",
+    "passage": "I like the night. Without the dark, we'd never see the stars.",
+    "author": "stephenie-meyer"
+  },
+  {
+    "novel": "The Host",
+    "passage": "It's not the face, but the expressions on it. It's not the voice, but what you say. It's not how you look in that body, but the thing you do with it. You are beautiful.",
+    "author": "stephenie-meyer"
+  },
+  {
+    "novel": "Twilight",
+    "passage": "About three things I was absolutely positive. First, Edward was a vampire. Second, there was a part of him-and I didn't know how potent that part might be-that thirsted for my blood. And third, I was unconditionally and irrevocably in love with him.",
+    "author": "stephenie-meyer"
+  },
+  {
+    "novel": "At First Sight",
+    "passage": "Just when you think it can't get any worse, it can. And just when you think it can't get any better, it can.",
+    "author": "nicholas-sparks"
+  },
+  {
+    "novel": "The Notebook",
+    "passage": "I am nothing special, of this I am sure. I am a common man with common thoughts and I've led a common life. There are no monuments dedicated to me and my name will soon be forgotten, but I've loved another with all my heart and soul, and to me, this has always been enough..",
+    "author": "nicholas-sparks"
+  },
+  {
+    "novel": "Message in a Bottle",
+    "passage": "Nothing that's worthwhile is ever easy. Remember that.",
+    "author": "nicholas-sparks"
+  },
+  {
+    "novel": "Catching Fire",
+    "passage": "My nightmares are usually about losing you. I'm okay once I realize you're here.",
+    "author": "suzanne-collins"
+  },
+  {
+    "novel": "The Hunger Games",
+    "passage": "Remember, we're madly in love, so it's all right to kiss me anytime you feel like it.",
+    "author": "suzanne-collins"
+  },
+  {
+    "novel": "The Hunger Games",
+    "passage": "Happy Hunger Games! And may the odds be ever in your favor.",
+    "author": "suzanne-collins"
+  },
+  {
+    "novel": "Fifty Shades Darker",
+    "passage": "You wanted hearts and flowers, he murmurs.I blink at him, not quite believing what I'm seeing.You have my heart. And he waves toward the room.And here are the flowers, I whisper, completing his sentence. Christian, it's lovely.",
+    "author": "el-james"
+  },
+  {
+    "novel": "Fifty Shades of Grey",
+    "passage": "Laters, baby.",
+    "author": "el-james"
+  },
+  {
+    "novel": "Fifty Shades Darker",
+    "passage": "You love me, I whisper.His eyes widen further and his mouth opens. He takes a huge breath as if winded. He looks tortured—vulnerable.Yes, he whispers. I do.",
+    "author": "el-james"
+  },
+  {
+    "novel": "Gone Girl",
+    "passage": "Friends see most of each other's flaws. Spouses see every awful last bit.",
+    "author": "gillian-flynn"
+  },
+  {
+    "novel": "Gone Girl",
+    "passage": "Men always say that as the defining compliment, don't they? She's a cool girl. Being the Cool Girl means I am a hot, brilliant, funny woman who adores football, poker, dirty jokes, and burping, who plays video games, drinks cheap beer, loves threesomes and anal sex, and jams hot dogs and hamburgers into her mouth like she's hosting the world's biggest culinary gang bang while somehow maintaining a size 2, because Cool Girls are above all hot. Hot and understanding. Cool Girls never get angry; they only smile in a chagrined, loving manner and let their men do whatever they want. Go ahead, shit on me, I don't mind, I'm the Cool Girl.Men actually think this girl exists. Maybe they're fooled because so many women are willing to pretend to be this girl. For a long time Cool Girl offended me. I used to see men – friends, coworkers, strangers – giddy over these awful pretender women, and I'd want to sit these men down and calmly say: You are not dating a woman, you are dating a woman who has watched too many movies written by socially awkward men who'd like to believe that this kind of woman exists and might kiss them. I'd want to grab the poor guy by his lapels or messenger bag and say: The bitch doesn't really love chili dogs that much – no one loves chili dogs that much! And the Cool Girls are even more pathetic: They're not even pretending to be the woman they want to be, they're pretending to be the woman a man wants them to be. Oh, and if you're not a Cool Girl, I beg you not to believe that your man doesn't want the Cool Girl. It may be a slightly different version – maybe he's a vegetarian, so Cool Girl loves seitan and is great with dogs; or maybe he's a hipster artist, so Cool Girl is a tattooed, bespectacled nerd who loves comics. There are variations to the window dressing, but believe me, he wants Cool Girl, who is basically the girl who likes every fucking thing he likes and doesn't ever complain. (How do you know you're not Cool Girl? Because he says things like: I like strong women. If he says that to you, he will at some point fuck someone else. Because I like strong women is code for I hate strong women.)",
+    "author": "gillian-flynn"
+  },
+  {
+    "novel": "Dark Places",
+    "passage": "I was not a lovable child, and I'd grown into a deeply unlovable adult. Draw a picture of my soul, and it'd be a scribble with fangs.",
+    "author": "gillian-flynn"
+  },
+  {
+    "novel": "The Martian",
+    "passage": "Maybe I'll post a consumer review. Brought product to surface of Mars. It stopped working. 0/10.",
+    "author": "andy-weir"
+  },
+  {
+    "novel": "The Martian",
+    "passage": "I can't wait till I have grandchildren. When I was younger, I had to walk to the rim of a crater. Uphill! In an EVA suit! On Mars, ya little shit! Ya hear me? Mars!",
+    "author": "andy-weir"
+  },
+  {
+    "novel": "The Martian",
+    "passage": "He's stuck out there. He thinks he's totally alone and that we all gave up on him. What kind of effect does that have on a man's psychology? He turned back to Venkat. I wonder what he's thinking right now. LOG ENTRY: SOL 61 How come Aquaman can control whales? They're mammals! Makes no sense.",
+    "author": "andy-weir"
+  },
+  {
+    "novel": "The Lightning Thief",
+    "passage": "If my life is going to mean anything, I have to live it myself.",
+    "author": "rick-riordan"
+  },
+  {
+    "novel": "The Last Olympian",
+    "passage": "With great power... comes great need to take a nap. Wake me up later.",
+    "author": "rick-riordan"
+  },
+  {
+    "novel": "The Sea of Monsters",
+    "passage": "The real story of the Fleece: there were these two children of Zeus, Cadmus and Europa, okay? They were about to get offered up as human sacrifices, when they prayed to Zeus to save them. So Zeus sent this magical flying ram with golden wool, which picked them up in Greece and carried them all the way to Colchis in Asia Minor. Well, actually it carried Cadmus. Europa fell off and died along the way, but that's not important.It was probably important to her.",
+    "author": "rick-riordan"
+  },
+  {
+    "novel": "Looking for Alaska",
+    "passage": "When adults say, Teenagers think they are invincible with that sly, stupid smile on their faces, they don't know how right they are. We need never be hopeless, because we can never be irreparably broken. We think that we are invincible because we are. We cannot be born, and we cannot die. Like all energy, we can only change shapes and sizes and manifestations. They forget that when they get old. They get scared of losing and failing. But that part of us greater than the sum of our parts cannot begin and cannot end, and so it cannot fail.",
+    "author": "john-green"
+  },
+  {
+    "novel": "The Fault in Our Stars",
+    "passage": "Some infinities are bigger than other infinities.",
+    "author": "john-green"
+  },
+  {
+    "novel": "The Fault in Our Stars",
+    "passage": "You don't get to choose if you get hurt in this world...but you do have some say in who hurts you. I like my choices.",
+    "author": "john-green"
+  },
+  {
+    "novel": "On the Come Up",
+    "passage": "Jay's a people person. I'm more of a yes, people exist, but that doesn't mean I need to talk to them person.",
+    "author": "angie-thomas"
+  },
+  {
+    "novel": "The Hate U Give",
+    "passage": "What's the point of having a voice if you're gonna be silent in those moments you shouldn't be?",
+    "author": "angie-thomas"
+  },
+  {
+    "novel": "The Hate U Give",
+    "passage": "Daddy, you're the worst person to watch Harry Potter with. The whole time you're talking about—I deepen my voice—‘Why don't they shoot that nigga Voldemort?' Ay, it don't make sense that in all them movies and books, nobody thought to shoot him. If it's not that, Momma says, you're giving your ‘Harry Potter is about gangs' theory. It is! he says. Okay, so it is a good theory. Daddy claims the Hogwarts houses are really gangs. They have their own colors, their own hideouts, and they are always riding for each other, like gangs. Harry, Ron, and Hermione never snitch on one another, just like gangbangers. Death Eaters even have matching tattoos. And look at Voldemort. They're scared to say his name. Really, that He Who Must Not Be Named stuff is like giving him a street name. That's some gangbanging shit right there. Y'all know that make a lot of sense, Daddy says. Just 'cause they was in England don't mean they wasn't gangbanging. He looks at me. So you down to hang out with your old man today or what?",
+    "author": "angie-thomas"
+  },
+  {
+    "novel": "Maybe Someday",
+    "passage": "Sometimes in life, we need a few bad days in order to keep the good ones in perspective.",
+    "author": "colleen-hoover"
+  },
+  {
+    "novel": "It Ends with Us",
+    "passage": "It stops here. With me and you. It ends with us.",
+    "author": "colleen-hoover"
+  },
+  {
+    "novel": "It Ends with Us",
+    "passage": "There is no such thing as bad people. We're all just people who sometimes do bad things.",
+    "author": "colleen-hoover"
+  },
+  {
+    "novel": "Never Let Me Go",
+    "passage": "Memories, even your most precious ones, fade surprisingly quickly. But I don't go along with that. The memories I value most, I don't ever see them fading.",
+    "author": "kazuo-ishiguro"
+  },
+  {
+    "novel": "The Remains of the Day",
+    "passage": "If you are under the impression you have already perfected yourself, you will never rise to the heights you are no doubt capable of.",
+    "author": "kazuo-ishiguro"
+  },
+  {
+    "novel": "The Remains of the Day",
+    "passage": "The evening's the best part of the day. You've done your day's work. Now you can put your feet up and enjoy it.",
+    "author": "kazuo-ishiguro"
+  }
 ] as const;

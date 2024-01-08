@@ -16,6 +16,7 @@ export const AUTHORS = {
   'angie-thomas': 'Angie Thomas',
   'colleen-hoover': 'Colleen Hoover',
   'kazuo-ishiguro': 'Kazuo Ishiguro',
+  'hp-lovecraft': 'H.P. Lovecraft',
 } as const;
 
 export type AuthorID = keyof typeof AUTHORS;

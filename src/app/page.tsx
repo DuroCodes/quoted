@@ -49,8 +49,8 @@ export default function Home() {
       const author = AUTHORS[passage!.author];
       toast({
         title: 'Correct!',
-        description: `From ${author}${author.endsWith('s') ? "'" : "'s"} ${passage?.year} work "${passage?.novel}."`,
-      })
+        description: `From ${author}${author.endsWith('s') ? "'" : "'s"} "${passage?.novel}."`,
+      });
     } else {
       window.location.replace(`/lose?score=${score}`);
     }
