@@ -34,7 +34,7 @@ const capitalize = (s) => s.charAt(0).toUpperCase() + s.slice(1);
 
 const parseQuote = (text, author) => ({
   novel: text.split('\n')[8]?.trim(),
-  passage: capitalize(text.split('\n')[1]?.trim().replace(/“|”|"/g, '').replaceAll('’', '\'')),
+  passage: capitalize(text.split('\n')[1]?.trim().replace(/“|”|"/g, '').replaceAll('’', '\'').replace(/\.([^ ])/g, '. $1')),
   author,
 });
 
