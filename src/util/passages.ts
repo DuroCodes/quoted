@@ -10,37 +10,12 @@ export interface Passage {
 export const PASSAGES: Passage[] = [
   {
     "novel": "On Writing: A Memoir of the Craft",
-    "passage": "The scariest moment is always just before you start.",
-    "author": "stephen-king"
-  },
-  {
-    "novel": "Rita Hayworth and Shawshank Redemption",
-    "passage": "Some birds are not meant to be caged, that's all. Their feathers are too bright, their songs too sweet and wild. So you let them go, or when you open the cage to feed them they somehow fly out past you. And the part of you that knows it was wrong to imprison them in the first place rejoices, but still, the place where you live is that much more drab and empty for their departure.",
+    "passage": "Books are a uniquely portable magic.",
     "author": "stephen-king"
   },
   {
     "novel": "Different Seasons",
     "passage": "Get busy living or get busy dying.",
-    "author": "stephen-king"
-  },
-  {
-    "novel": "On Writing: A Memoir of the Craft",
-    "passage": "You can, you should, and if you're brave enough to start, you will.",
-    "author": "stephen-king"
-  },
-  {
-    "novel": "On Writing: A Memoir of the Craft",
-    "passage": "Books are a uniquely portable magic.",
-    "author": "stephen-king"
-  },
-  {
-    "novel": "On Writing: A Memoir of the Craft",
-    "passage": "The road to hell is paved with adverbs.",
-    "author": "stephen-king"
-  },
-  {
-    "novel": "Storm of the Century",
-    "passage": "When his life was ruined, his family killed, his farm destroyed, Job knelt down on the ground and yelled up to the heavens, Why god? Why me? and the thundering voice of God answered, There's just something about you that pisses me off.",
     "author": "stephen-king"
   },
   {
@@ -54,13 +29,43 @@ export const PASSAGES: Passage[] = [
     "author": "stephen-king"
   },
   {
+    "novel": "On Writing: A Memoir of the Craft",
+    "passage": "The scariest moment is always just before you start.",
+    "author": "stephen-king"
+  },
+  {
+    "novel": "Storm of the Century",
+    "passage": "When his life was ruined, his family killed, his farm destroyed, Job knelt down on the ground and yelled up to the heavens, Why god? Why me? and the thundering voice of God answered, There's just something about you that pisses me off.",
+    "author": "stephen-king"
+  },
+  {
+    "novel": "On Writing: A Memoir of the Craft",
+    "passage": "The road to hell is paved with adverbs.",
+    "author": "stephen-king"
+  },
+  {
+    "novel": "Rita Hayworth and Shawshank Redemption",
+    "passage": "Some birds are not meant to be caged, that's all. Their feathers are too bright, their songs too sweet and wild. So you let them go, or when you open the cage to feed them they somehow fly out past you. And the part of you that knows it was wrong to imprison them in the first place rejoices, but still, the place where you live is that much more drab and empty for their departure.",
+    "author": "stephen-king"
+  },
+  {
+    "novel": "On Writing: A Memoir of the Craft",
+    "passage": "You can, you should, and if you're brave enough to start, you will.",
+    "author": "stephen-king"
+  },
+  {
+    "novel": "Harry Potter and the Order of the Phoenix",
+    "passage": "Wit beyond measure is man's greatest treasure.",
+    "author": "jk-rowling"
+  },
+  {
     "novel": "Harry Potter and the Goblet of Fire",
     "passage": "Remember, if the time should come when you have to make a choice between what is right and what is easy, remember what happened to a boy who was good, and kind, and brave, because he strayed across the path of Lord Voldemort. Remember Cedric Diggory.",
     "author": "jk-rowling"
   },
   {
-    "novel": "Harry Potter and the Chamber of Secrets",
-    "passage": "It is our choices, Harry, that show what we truly are, far more than our abilities.",
+    "novel": "Harry Potter and the Sorcerer's Stone",
+    "passage": "It takes a great deal of bravery to stand up to our enemies, but just as much to stand up to our friends.",
     "author": "jk-rowling"
   },
   {
@@ -69,8 +74,8 @@ export const PASSAGES: Passage[] = [
     "author": "jk-rowling"
   },
   {
-    "novel": "Harry Potter and the Order of the Phoenix",
-    "passage": "Wit beyond measure is man's greatest treasure.",
+    "novel": "Harry Potter and the Sorcerer's Stone",
+    "passage": "The truth. Dumbledore sighed. It is a beautiful and terrible thing, and should therefore be treated with great caution.",
     "author": "jk-rowling"
   },
   {
@@ -79,13 +84,13 @@ export const PASSAGES: Passage[] = [
     "author": "jk-rowling"
   },
   {
-    "novel": "Harry Potter and the Deathly Hallows",
-    "passage": "We're all human, aren't we? Every human life is worth the same, and worth saving.",
+    "novel": "Harry Potter and the Prisoner of Azkaban",
+    "passage": "I solemnly swear that I am up to no good.",
     "author": "jk-rowling"
   },
   {
-    "novel": "Harry Potter and the Deathly Hallows",
-    "passage": "Do not pity the dead, Harry. Pity the living, and, above all those who live without love.",
+    "novel": "Harry Potter and the Chamber of Secrets",
+    "passage": "It is our choices, Harry, that show what we truly are, far more than our abilities.",
     "author": "jk-rowling"
   },
   {
@@ -95,12 +100,7 @@ export const PASSAGES: Passage[] = [
   },
   {
     "novel": "Harry Potter and the Goblet of Fire",
-    "passage": "It matters not what someone is born, but what they grow to be.",
-    "author": "jk-rowling"
-  },
-  {
-    "novel": "Harry Potter and the Deathly Hallows",
-    "passage": "Dumbledore watched her fly away, and as her silvery glow faded he turned back to Snape, and his eyes were full of tears. After all this time?Always, said Snape.",
+    "passage": "Numbing the pain for a while will make it worse when you finally feel it.",
     "author": "jk-rowling"
   },
   {
@@ -110,22 +110,22 @@ export const PASSAGES: Passage[] = [
   },
   {
     "novel": "A Game of Thrones",
+    "passage": "Once you've accepted your flaws, no one can use them against you.",
+    "author": "george-rr-martin"
+  },
+  {
+    "novel": "A Clash of Kings",
+    "passage": "People often claim to hunger for truth, but seldom like the taste when it's served up.",
+    "author": "george-rr-martin"
+  },
+  {
+    "novel": "A Game of Thrones",
+    "passage": "Death is so terribly final, while life is full of possibilities.",
+    "author": "george-rr-martin"
+  },
+  {
+    "novel": "A Game of Thrones",
     "passage": ". .. a mind needs books as a sword needs a whetstone, if it is to keep its edge.",
-    "author": "george-rr-martin"
-  },
-  {
-    "novel": "A Game of Thrones",
-    "passage": "Most men would rather deny a hard truth than face it.",
-    "author": "george-rr-martin"
-  },
-  {
-    "novel": "A Song of Ice and Fire, 5-Book Boxed Set: A Game of Thrones, A Clash of Kings, A Storm of Swords, A Feast for Crows, A Dance with Dragons",
-    "passage": "Never forget what you are, for surely the world will not. Make it your strength. Then it can never be your weakness.",
-    "author": "george-rr-martin"
-  },
-  {
-    "novel": "A Game of Thrones",
-    "passage": "The man who passes the sentence should swing the sword. If you would take a man's life, you owe it to him to look into his eyes and hear his final words. And if you cannot bear to do that, then perhaps the man does not deserve to die.",
     "author": "george-rr-martin"
   },
   {
@@ -135,17 +135,7 @@ export const PASSAGES: Passage[] = [
   },
   {
     "novel": "A Game of Thrones",
-    "passage": "Some old wounds never truly heal, and bleed again at the slightest word.",
-    "author": "george-rr-martin"
-  },
-  {
-    "novel": "A Game of Thrones",
-    "passage": "Never forget what you are, for surely the world will not. Make it your strength. Then it can never be your weakness. Armour yourself in it, and it will never be used to hurt you.",
-    "author": "george-rr-martin"
-  },
-  {
-    "novel": "A Game of Thrones",
-    "passage": "When you play a game of thrones you win or you die.",
+    "passage": "The things we love destroy us every time, lad. Remember that.",
     "author": "george-rr-martin"
   },
   {
@@ -154,13 +144,28 @@ export const PASSAGES: Passage[] = [
     "author": "george-rr-martin"
   },
   {
-    "novel": "The Da Vinci Code",
-    "passage": "Men go to far greater lengths to avoid what they fear than to obtain what they desire.",
+    "novel": "A Game of Thrones",
+    "passage": "Some old wounds never truly heal, and bleed again at the slightest word.",
+    "author": "george-rr-martin"
+  },
+  {
+    "novel": "A Game of Thrones",
+    "passage": "Winter is coming.",
+    "author": "george-rr-martin"
+  },
+  {
+    "novel": "Inferno",
+    "passage": "Remember tonight. .. for it's the beginning of forever. - Dante Alighieri",
     "author": "dan-brown"
   },
   {
-    "novel": "Angels & Demons",
-    "passage": "God answers all prayers, but sometimes his answer is 'no'.",
+    "novel": "Digital Fortress",
+    "passage": "Everything is possible. The impossible just takes longer.",
+    "author": "dan-brown"
+  },
+  {
+    "novel": "Inferno",
+    "passage": "The decisions of our past are the architects of our present.",
     "author": "dan-brown"
   },
   {
@@ -174,28 +179,18 @@ export const PASSAGES: Passage[] = [
     "author": "dan-brown"
   },
   {
-    "novel": "Deception Point",
-    "passage": "Sooner or later we've all got to let go of our past.",
-    "author": "dan-brown"
-  },
-  {
-    "novel": "The Lost Symbol",
-    "passage": "Great minds are always feared by lesser minds.",
-    "author": "dan-brown"
-  },
-  {
     "novel": "Angels & Demons",
     "passage": "Science tells me God must exist. My mind tells me I will never understand God. And my heart tells me I am not meant to.",
     "author": "dan-brown"
   },
   {
-    "novel": "Digital Fortress",
-    "passage": "Everything is possible. The impossible just takes longer.",
+    "novel": "Angels & Demons",
+    "passage": "Whether or not you believe in God, you must believe this: when we as a species abandon our trust in a power greater than us, we abandon our sense of accountability. Faiths… all faiths… are admonitions that there is something we cannot understand, something to which we are accountable. With faith we are accountable to each other, to ourselves, and to a higher truth. Religion is flawed, but only because man is flawed. The church consists of a brotherhood of imperfect, simple souls wanting only to be a voice of compassion in a world spinning out of control.",
     "author": "dan-brown"
   },
   {
-    "novel": "Inferno",
-    "passage": "Remember tonight. .. for it's the beginning of forever. - Dante Alighieri",
+    "novel": "Angels & Demons",
+    "passage": "God answers all prayers, but sometimes his answer is 'no'.",
     "author": "dan-brown"
   },
   {
@@ -204,8 +199,13 @@ export const PASSAGES: Passage[] = [
     "author": "dan-brown"
   },
   {
-    "novel": "Rogue Lawyer",
-    "passage": "As a society, we adhere to the belief in a fair trial for a person accused of a serious crime, but some of us struggle when it comes to the business of providing a competent lawyer to guarantee said fair trial. Lawyers like me live with the question But how do you represent such scum?I offer a quick Someone has to as I walk away. Do we really want fair trials? No, we do not. We want justice, and quickly. And justice is whatever we deem it to be on a case-by-case basis. It's just as well that we don't believe in fair trials because we damned sure don't have them. The presumption of innocence is now the presumption of guilt. The burden of proof is a travesty because the proof is often lies. Guilt beyond a reasonable doubt means if he probably did it, then let's get him off the streets.",
+    "novel": "The Da Vinci Code",
+    "passage": "Life is filled with secrets. You can't learn them all at once.",
+    "author": "dan-brown"
+  },
+  {
+    "novel": "The Client",
+    "passage": "One good thing about jail is that it allows you to think a lot.",
     "author": "john-grisham"
   },
   {
@@ -214,33 +214,13 @@ export const PASSAGES: Passage[] = [
     "author": "john-grisham"
   },
   {
-    "novel": "The Whistler",
-    "passage": "You've just brought down the most corrupt judge in American history. Cheers!",
+    "novel": "The Client",
+    "passage": "There was something unfair about a system in which a little kid was brought into a courtroom and surrounded by lawyers arguing and sniping at each other under the scornful eye of a judge, the referee, and somehow in the midst of this barrage of laws and code sections and motions and legal talk the kid was supposed to know what was happening to him. It was hopelessly unfair.",
     "author": "john-grisham"
   },
   {
     "novel": "The Partner",
     "passage": "Why can't a man have more than one life? Where was it written that you couldn't start over? And over?",
-    "author": "john-grisham"
-  },
-  {
-    "novel": "The Rainmaker",
-    "passage": "A battered wife is a married woman until she gets a divorce. Or until she kills the bastard.",
-    "author": "john-grisham"
-  },
-  {
-    "novel": "The Client",
-    "passage": "One good thing about jail is that it allows you to think a lot.",
-    "author": "john-grisham"
-  },
-  {
-    "novel": "The Rainmaker",
-    "passage": "Don't compromise yourself - you're all you have.",
-    "author": "john-grisham"
-  },
-  {
-    "novel": "The Client",
-    "passage": "There was something unfair about a system in which a little kid was brought into a courtroom and surrounded by lawyers arguing and sniping at each other under the scornful eye of a judge, the referee, and somehow in the midst of this barrage of laws and code sections and motions and legal talk the kid was supposed to know what was happening to him. It was hopelessly unfair.",
     "author": "john-grisham"
   },
   {
@@ -254,8 +234,28 @@ export const PASSAGES: Passage[] = [
     "author": "john-grisham"
   },
   {
-    "novel": "Mercy",
-    "passage": "You know it's never fifty-fifty in a marriage. It's always seventy-thirty, or sixty-forty. Someone falls in love first. Someone puts someone else up on a pedestal. Someone works very hard to keep things rolling smoothly; someone else sails along for the ride.",
+    "novel": "The Rainmaker",
+    "passage": "A battered wife is a married woman until she gets a divorce. Or until she kills the bastard.",
+    "author": "john-grisham"
+  },
+  {
+    "novel": "The Rainmaker",
+    "passage": "Don't compromise yourself - you're all you have.",
+    "author": "john-grisham"
+  },
+  {
+    "novel": "The Whistler",
+    "passage": "You've just brought down the most corrupt judge in American history. Cheers!",
+    "author": "john-grisham"
+  },
+  {
+    "novel": "The Exchange",
+    "passage": "His name is Tad Kearny and he's got ninety days. A month ago he made the strange decision to fire his lawyers, all of them, and he had quite a team.",
+    "author": "john-grisham"
+  },
+  {
+    "novel": "My Sister's Keeper",
+    "passage": "Maybe who we are isn't so much about what we do, but rather what we're capable of when we least expect it.",
     "author": "jodi-picoult"
   },
   {
@@ -264,28 +264,13 @@ export const PASSAGES: Passage[] = [
     "author": "jodi-picoult"
   },
   {
-    "novel": "My Sister's Keeper",
-    "passage": "You don't love someone because they're perfect, you love them in spite of the fact that they're not.",
+    "novel": "Handle with Care",
+    "passage": "When you love someone, you say their name different. Like it's safe inside your mouth.",
     "author": "jodi-picoult"
   },
   {
     "novel": "My Sister's Keeper",
-    "passage": "I wondered what happened when you offered yourself to someone, and they opened you, only to discover you were not the gift they expected and they had to smile and nod and say thank you all the same.",
-    "author": "jodi-picoult"
-  },
-  {
-    "novel": "My Sister's Keeper",
-    "passage": "Let me tell you this: if you meet a loner, no matter what they tell you, it's not because they enjoy solitude. It's because they have tried to blend into the world before, and people continue to disappoint them.",
-    "author": "jodi-picoult"
-  },
-  {
-    "novel": "Change of Heart",
-    "passage": "When you're different, sometimes you don't see the millions of people who accept you for what you are. All you notice is the person who doesn't.",
-    "author": "jodi-picoult"
-  },
-  {
-    "novel": "Nineteen Minutes",
-    "passage": "You don't need water to feel like you're drowning, do you?",
+    "passage": "Extraordinary things are always hiding in places people never think to look.",
     "author": "jodi-picoult"
   },
   {
@@ -294,8 +279,13 @@ export const PASSAGES: Passage[] = [
     "author": "jodi-picoult"
   },
   {
-    "novel": "Handle with Care",
-    "passage": "When you love someone, you say their name different. Like it's safe inside your mouth.",
+    "novel": "My Sister's Keeper",
+    "passage": "I'm lonely. Why do you think I had to learn to act so independent? I also get mad too quickly, and I hog the covers, and my second toe is longer than my big one. My hair has it's own zip code. Plus, I get certifiably crazy when I've got PMS. You don't love someone because they're perfect. You love them in spite of the fact that they're not.",
+    "author": "jodi-picoult"
+  },
+  {
+    "novel": "My Sister's Keeper",
+    "passage": "I wondered what happened when you offered yourself to someone, and they opened you, only to discover you were not the gift they expected and they had to smile and nod and say thank you all the same.",
     "author": "jodi-picoult"
   },
   {
@@ -304,19 +294,14 @@ export const PASSAGES: Passage[] = [
     "author": "jodi-picoult"
   },
   {
-    "novel": "Breaking Dawn",
-    "passage": "Did you know that 'I told you so' has a brother,Jacob? she asked cutting me off. His name is 'Shut the hell up'.",
-    "author": "stephenie-meyer"
+    "novel": "My Sister's Keeper",
+    "passage": "Let me tell you this: if you meet a loner, no matter what they tell you, it's not because they enjoy solitude. It's because they have tried to blend into the world before, and people continue to disappoint them.",
+    "author": "jodi-picoult"
   },
   {
-    "novel": "Breaking Dawn",
-    "passage": "Life sucks, and then you die. ..",
-    "author": "stephenie-meyer"
-  },
-  {
-    "novel": "New Moon",
-    "passage": "Forbidden to remember, terrified to forget; it was a hard line to walk.",
-    "author": "stephenie-meyer"
+    "novel": "Mercy",
+    "passage": "You know it's never fifty-fifty in a marriage. It's always seventy-thirty, or sixty-forty. Someone falls in love first. Someone puts someone else up on a pedestal. Someone works very hard to keep things rolling smoothly; someone else sails along for the ride.",
+    "author": "jodi-picoult"
   },
   {
     "novel": "Eclipse",
@@ -325,22 +310,22 @@ export const PASSAGES: Passage[] = [
   },
   {
     "novel": "Twilight",
-    "passage": "And so the lion fell in love with the lamb… he murmured. I looked away, hiding my eyes as I thrilled to the word. What a stupid lamb, I sighed. What a sick, masochistic lion.",
-    "author": "stephenie-meyer"
-  },
-  {
-    "novel": "Twilight",
-    "passage": "About three things I was absolutely positive. First, Edward was a vampire. Second, there was a part of him-and I didn't know how potent that part might be-that thirsted for my blood. And third, I was unconditionally and irrevocably in love with him.",
-    "author": "stephenie-meyer"
-  },
-  {
-    "novel": "Twilight",
-    "passage": "Twilight, again. Another ending. No matter how perfect the day is, it always has to end.",
-    "author": "stephenie-meyer"
-  },
-  {
-    "novel": "Twilight",
     "passage": "I like the night. Without the dark, we'd never see the stars.",
+    "author": "stephenie-meyer"
+  },
+  {
+    "novel": "Eclipse",
+    "passage": "Look after my heart - I've left it with you.",
+    "author": "stephenie-meyer"
+  },
+  {
+    "novel": "Breaking Dawn",
+    "passage": "Did you know that 'I told you so' has a brother,Jacob? she asked cutting me off. His name is 'Shut the hell up'.",
+    "author": "stephenie-meyer"
+  },
+  {
+    "novel": "Eclipse",
+    "passage": "I am Switzerland. I refuse to be affected by territorial disputes between mythical creatures.",
     "author": "stephenie-meyer"
   },
   {
@@ -350,47 +335,32 @@ export const PASSAGES: Passage[] = [
   },
   {
     "novel": "Twilight",
-    "passage": "Even more, I had never meant to love him. One thing I truly knew - knew it in the pit of my stomach, in the center of my bones, knew it from the crown of my head to the soles of my feet, knew it deep in my empty chest - was how love gave someone the power to break you",
+    "passage": "And so the lion fell in love with the lamb… he murmured. I looked away, hiding my eyes as I thrilled to the word. What a stupid lamb, I sighed. What a sick, masochistic lion.",
     "author": "stephenie-meyer"
   },
   {
-    "novel": "Dear John",
-    "passage": "When you're struggling with something, look at all the people around you and realize that every single person you see is struggling with something, and to them, it's just as hard as what you're going through.",
-    "author": "nicholas-sparks"
+    "novel": "The Host",
+    "passage": "It's not the face, but the expressions on it. It's not the voice, but what you say. It's not how you look in that body, but the thing you do with it. You are beautiful.",
+    "author": "stephenie-meyer"
   },
   {
-    "novel": "Dear John",
-    "passage": "I finally understood what true love meant. .. love meant that you care for another person's happiness more than your own, no matter how painful the choices you face might be.",
-    "author": "nicholas-sparks"
+    "novel": "Breaking Dawn",
+    "passage": "Hey, Rosalie? Do you know how to drown a blonde? Stick a mirror to the bottom of a pool.",
+    "author": "stephenie-meyer"
   },
   {
-    "novel": "Message in a Bottle",
-    "passage": "If you like her, if she makes you happy, and if you feel like you know her---then don't let her go.",
+    "novel": "Twilight",
+    "passage": "About three things I was absolutely positive. First, Edward was a vampire. Second, there was a part of him-and I didn't know how potent that part might be-that thirsted for my blood. And third, I was unconditionally and irrevocably in love with him.",
+    "author": "stephenie-meyer"
+  },
+  {
+    "novel": "The Notebook",
+    "passage": "My daddy said, that the first time you fall in love, it changes you forever and no matter how hard you try, that feeling just never goes away.",
     "author": "nicholas-sparks"
   },
   {
     "novel": "The Notebook",
-    "passage": "So it's not gonna be easy. It's going to be really hard; we're gonna have to work at this everyday, but I want to do that because I want you. I want all of you, forever, everyday. You and me. .. everyday.",
-    "author": "nicholas-sparks"
-  },
-  {
-    "novel": "The Notebook",
-    "passage": "I love you. I am who I am because of you. You are every reason, every hope, and every dream I've ever had, and no matter what happens to us in the future, everyday we are together is the greatest day of my life. I will always be yours. ",
-    "author": "nicholas-sparks"
-  },
-  {
-    "novel": "The Notebook",
-    "passage": "They didn't agree on much. In fact, they didn't agree on anything. They fought all the time and challenged each other ever day. But despite their differences, they had one important thing in common. They were crazy about each other.",
-    "author": "nicholas-sparks"
-  },
-  {
-    "novel": "The Notebook",
-    "passage": "You can't live your life for other people. You've got to do what's right for you, even if it hurts some people you love.",
-    "author": "nicholas-sparks"
-  },
-  {
-    "novel": "The Notebook",
-    "passage": "We fell in love, despite our differences, and once we did, something rare and beautiful was created. For me, love like that has only happened once, and that's why every minute we spent together has been seared in my memory. I'll never forget a single moment of it.",
+    "passage": "You are my best friend as well as my lover, and I do not know which side of you I enjoy the most. I treasure each side, just as I have treasured our life together.",
     "author": "nicholas-sparks"
   },
   {
@@ -399,18 +369,58 @@ export const PASSAGES: Passage[] = [
     "author": "nicholas-sparks"
   },
   {
-    "novel": "At First Sight",
-    "passage": "Just when you think it can't get any worse, it can. And just when you think it can't get any better, it can.",
+    "novel": "The Notebook",
+    "passage": "We fell in love, despite our differences, and once we did, something rare and beautiful was created. For me, love like that has only happened once, and that's why every minute we spent together has been seared in my memory. I'll never forget a single moment of it.",
+    "author": "nicholas-sparks"
+  },
+  {
+    "novel": "The Notebook",
+    "passage": "They didn't agree on much. In fact, they didn't agree on anything. They fought all the time and challenged each other ever day. But despite their differences, they had one important thing in common. They were crazy about each other.",
+    "author": "nicholas-sparks"
+  },
+  {
+    "novel": "The Last Song",
+    "passage": "Sometimes you have to be apart from people you love, but that doesn't make you love them any less. Sometimes you love them more.",
+    "author": "nicholas-sparks"
+  },
+  {
+    "novel": "The Notebook",
+    "passage": "So it's not gonna be easy. It's going to be really hard; we're gonna have to work at this everyday, but I want to do that because I want you. I want all of you, forever, everyday. You and me. .. everyday.",
+    "author": "nicholas-sparks"
+  },
+  {
+    "novel": "The Rescue",
+    "passage": "You're going to come across people in your life who will say all the right words at all the right times. But in the end, it's always their actions you should judge them by. It's actions, not words, that matter.",
+    "author": "nicholas-sparks"
+  },
+  {
+    "novel": "The Notebook",
+    "passage": "You can't live your life for other people. You've got to do what's right for you, even if it hurts some people you love.",
+    "author": "nicholas-sparks"
+  },
+  {
+    "novel": "Message in a Bottle",
+    "passage": "If you like her, if she makes you happy, and if you feel like you know her---then don't let her go.",
     "author": "nicholas-sparks"
   },
   {
     "novel": "The Hunger Games",
-    "passage": "I am not pretty. I am not beautiful. I am as radiant as the sun.",
+    "passage": "You don't forget the face of the person who was your last hope.",
+    "author": "suzanne-collins"
+  },
+  {
+    "novel": "Mockingjay",
+    "passage": "It takes ten times as long to put yourself back together as it does to fall apart.",
+    "author": "suzanne-collins"
+  },
+  {
+    "novel": "Mockingjay",
+    "passage": "Finnick? I say, Maybe some pants? He looks down at his legs as if noticing his outfit for the first time. Then he whips off his hospital gown leaving him in just his underwear. Why? Do you find this -- he strikes a ridiculously provocative pose -- distracting? I laugh. Boggs looks embarrassed and Finnick looks more like the guy I met at the Quarter Quell",
     "author": "suzanne-collins"
   },
   {
     "novel": "The Hunger Games",
-    "passage": "Destroying things is much easier than making them.",
+    "passage": "I don't want to lose the boy with the bread.",
     "author": "suzanne-collins"
   },
   {
@@ -419,28 +429,13 @@ export const PASSAGES: Passage[] = [
     "author": "suzanne-collins"
   },
   {
-    "novel": "The Hunger Games",
-    "passage": "I'm coming back into focus when Caesar asks him if he has a girlfriend back home. Peeta hesitates, then gives an unconvincing shake of his head. Handsome lad like you. There must be some special girl. Come on, what's her name? says Caesar. Peeta sighs. Well, there is this one girl. I've had a crush on her ever since I can remember. But I'm pretty sure she didn't know I was alive until the reaping. Sounds of sympathy from the crowd. Unrequited love they can relate to. She have another fellow? asks Caesar. I don't know, but a lot of boys like her, says Peeta. So, here's what you do. You win, you go home. She can't turn you down then, eh? says Caesar encouragingly. I don't think it's going to work out. Winning. .. won't help in my case, says Peeta. Why ever not? says Caesar, mystified. Peeta blushes beet red and stammers out. Because. .. because. .. she came here with me.",
-    "author": "suzanne-collins"
-  },
-  {
     "novel": "Mockingjay",
-    "passage": "Well, don't expect us to be too impressed. We just saw Finnick Odair in his underwear.",
-    "author": "suzanne-collins"
-  },
-  {
-    "novel": "Mockingjay",
-    "passage": "You love me. Real or not real?I tell him, Real.",
+    "passage": "You love me. Real or not real? I tell him, Real.",
     "author": "suzanne-collins"
   },
   {
     "novel": "The Hunger Games",
-    "passage": "Happy Hunger Games! And may the odds be ever in your favor.",
-    "author": "suzanne-collins"
-  },
-  {
-    "novel": "Mockingjay",
-    "passage": "It takes ten times as long to put yourself back together as it does to fall apart.",
+    "passage": "I can feel Peeta press his forehead into my temple and he asks, 'So now that you've got me, what are you going to do with me? ' I turn into him. 'Put you somewhere you can't get hurt.",
     "author": "suzanne-collins"
   },
   {
@@ -454,38 +449,28 @@ export const PASSAGES: Passage[] = [
     "author": "suzanne-collins"
   },
   {
-    "novel": "Fifty Shades Darker",
-    "passage": "You wanted hearts and flowers, he murmurs. I blink at him, not quite believing what I'm seeing. You have my heart. And he waves toward the room. And here are the flowers, I whisper, completing his sentence. Christian, it's lovely.",
-    "author": "el-james"
+    "novel": "Catching Fire",
+    "passage": "You know, you could live a thousand lifetimes and not deserve him.",
+    "author": "suzanne-collins"
   },
   {
-    "novel": "Fifty Shades Darker",
-    "passage": "I don't know whether to worship at your feet or spank the living shit out of you.",
-    "author": "el-james"
-  },
-  {
-    "novel": "Fifty Shades Darker",
-    "passage": "Are you on your own?No. There are six people staring at me right now wondering who the hell i'm talking to. shit. .. Really? I gasp, panicked. Yes. Really. My girlfriend, he announces away from the phone. holy cow! They probably all thought you were gay, you know.",
+    "novel": "Fifty Shades of Grey",
+    "passage": "He grabs me suddenly and yanks me up against him, one hand at my back holding me to him and the other fisting in my hair. You're one challenging woman, He kisses me, forcing my lips apart with his tongue, taking no prisoners. It's taking all my self-control not to fuck you on the hood of this car, just to show you that you're mine, and if I want to buy you a fucking car, I'll buy you a fucking car, he growls.",
     "author": "el-james"
   },
   {
     "novel": "Fifty Shades of Grey",
-    "passage": "Oh, fuck the paperwork",
-    "author": "el-james"
-  },
-  {
-    "novel": "Fifty Shades Freed",
-    "passage": "I want your world to begin and end with me.",
-    "author": "el-james"
-  },
-  {
-    "novel": "Fifty Shades Darker",
-    "passage": "This is me, Ana. All of me. .. and I'm all yours. What do I have to do to make you realize that? To make you see that I want you any way I can get you. That I love you.",
+    "passage": "- Why don't you like to be touched? - Because I'm fifty shades of fucked-up, Anastasia",
     "author": "el-james"
   },
   {
     "novel": "Fifty Shades of Grey",
-    "passage": "Never trust a man who can dance.",
+    "passage": "Sometimes I wonder if there's something wrong with me. Perhaps I've spent too long in the company of my literary romantic heroes, and consequently my ideals and expectations are far too high.",
+    "author": "el-james"
+  },
+  {
+    "novel": "Fifty Shades Darker",
+    "passage": "No. No! he says. I . . . He looks wildly around the room. For inspiration? For divine intervention? I don't know. You can't go. Ana, I love you! I love you, too, Christian, it's just—No . . . no! he says in desperation and puts both hands on his head. Christian . . . No, he breathes, his eyes wide with panic, and suddenly he drops to his knees in front of me, head bowed, long-fingered hands spread out on his thighs. He takes a deep breath and doesn't move. What? Christian, what are you doing? He continues to stare down, not looking at me. Christian! What are you doing? My voice is high-pitched. He doesn't move. Christian, look at me! I command in panic. His head sweeps up without hesitation, and he regards me passively with his cool gray gaze—he's almost serene . . . expectant. Holy Fuck . . . Christian. The submissive.",
     "author": "el-james"
   },
   {
@@ -499,43 +484,33 @@ export const PASSAGES: Passage[] = [
     "author": "el-james"
   },
   {
+    "novel": "Fifty Shades Freed",
+    "passage": "I want your world to begin and end with me.",
+    "author": "el-james"
+  },
+  {
     "novel": "Fifty Shades Darker",
     "passage": "I wasn't aware we were fighting. I thought we were communicating,",
     "author": "el-james"
   },
   {
-    "novel": "Gone Girl",
-    "passage": "There's something disturbing about recalling a warm memory and feeling utterly cold.",
-    "author": "gillian-flynn"
+    "novel": "Fifty Shades Darker",
+    "passage": "I don't know whether to worship at your feet or spank the living shit out of you.",
+    "author": "el-james"
+  },
+  {
+    "novel": "Fifty Shades of Grey",
+    "passage": "Does this mean you're going to make love to me tonight, Christian? Holy shit. Did I just say that? His mouth drops open slightly, but he recovers quickly. No, Anastasia it doesn't. Firstly, I don't make love. I fuck… hard. Secondly, there's a lot more paperwork to do, and thirdly, you don't yet know what you're in for. You could still run for the hills. Come, I want to show you my playroom. My mouth drops open. Fuck hard! Holy shit, that sounds so… hot. But why are we looking at a playroom? I am mystified. You want to play on your Xbox? I ask. He laughs, loudly. No, Anastasia, no Xbox, no Playstation. Come. … Producing a key from his pocket, he unlocks yet another door and takes a deep breath. You can leave anytime. The helicopter is on stand-by to take you whenever you want to go, you can stay the night and go home in the morning. It's fine whatever you decide. Just open the damn door, Christian. He opens the door and stands back to let me in. I gaze at him once more. I so want to know what's in here. Taking a deep breath I walk in. And it feels like I've time-traveled back to the sixteenth century and the Spanish Inquisition. Holy fuck.",
+    "author": "el-james"
   },
   {
     "novel": "Gone Girl",
-    "passage": "Love makes you want to be a better man—right, right. But maybe love, real love, also gives you permission to just be the man you are.",
-    "author": "gillian-flynn"
-  },
-  {
-    "novel": "Sharp Objects",
-    "passage": "A child weaned on poison considers harm a comfort.",
-    "author": "gillian-flynn"
-  },
-  {
-    "novel": "Sharp Objects",
-    "passage": "The face you give the world tells the world how to treat you.",
-    "author": "gillian-flynn"
-  },
-  {
-    "novel": "Sharp Objects",
-    "passage": "Sometimes I think illness sits inside every woman, waiting for the right moment to bloom. I have known so many sick women all my life. Women with chronic pain, with ever-gestating diseases. Women with conditions. Men, sure, they have bone snaps, they have backaches, they have a surgery or two, yank out a tonsil, insert a shiny plastic hip. Women get consumed.",
-    "author": "gillian-flynn"
-  },
-  {
-    "novel": "Dark Places",
-    "passage": "I was not a lovable child, and I'd grown into a deeply unlovable adult. Draw a picture of my soul, and it'd be a scribble with fangs.",
+    "passage": "A lot of people lacked that gift: knowing when to fuck off.",
     "author": "gillian-flynn"
   },
   {
     "novel": "Gone Girl",
-    "passage": "Men always say that as the defining compliment, don't they? She's a cool girl. Being the Cool Girl means I am a hot, brilliant, funny woman who adores football, poker, dirty jokes, and burping, who plays video games, drinks cheap beer, loves threesomes and anal sex, and jams hot dogs and hamburgers into her mouth like she's hosting the world's biggest culinary gang bang while somehow maintaining a size 2, because Cool Girls are above all hot. Hot and understanding. Cool Girls never get angry; they only smile in a chagrined, loving manner and let their men do whatever they want. Go ahead, shit on me, I don't mind, I'm the Cool Girl. Men actually think this girl exists. Maybe they're fooled because so many women are willing to pretend to be this girl. For a long time Cool Girl offended me. I used to see men – friends, coworkers, strangers – giddy over these awful pretender women, and I'd want to sit these men down and calmly say: You are not dating a woman, you are dating a woman who has watched too many movies written by socially awkward men who'd like to believe that this kind of woman exists and might kiss them. I'd want to grab the poor guy by his lapels or messenger bag and say: The bitch doesn't really love chili dogs that much – no one loves chili dogs that much! And the Cool Girls are even more pathetic: They're not even pretending to be the woman they want to be, they're pretending to be the woman a man wants them to be. Oh, and if you're not a Cool Girl, I beg you not to believe that your man doesn't want the Cool Girl. It may be a slightly different version – maybe he's a vegetarian, so Cool Girl loves seitan and is great with dogs; or maybe he's a hipster artist, so Cool Girl is a tattooed, bespectacled nerd who loves comics. There are variations to the window dressing, but believe me, he wants Cool Girl, who is basically the girl who likes every fucking thing he likes and doesn't ever complain. (How do you know you're not Cool Girl? Because he says things like: I like strong women. If he says that to you, he will at some point fuck someone else. Because I like strong women is code for I hate strong women. )",
+    "passage": "There's a difference between really loving someone and loving the idea of her.",
     "author": "gillian-flynn"
   },
   {
@@ -544,14 +519,64 @@ export const PASSAGES: Passage[] = [
     "author": "gillian-flynn"
   },
   {
+    "novel": "Sharp Objects",
+    "passage": "Sometimes I think illness sits inside every woman, waiting for the right moment to bloom. I have known so many sick women all my life. Women with chronic pain, with ever-gestating diseases. Women with conditions. Men, sure, they have bone snaps, they have backaches, they have a surgery or two, yank out a tonsil, insert a shiny plastic hip. Women get consumed.",
+    "author": "gillian-flynn"
+  },
+  {
+    "novel": "Sharp Objects",
+    "passage": "A child weaned on poison considers harm a comfort.",
+    "author": "gillian-flynn"
+  },
+  {
     "novel": "Gone Girl",
     "passage": "Sleep is like a cat: It only comes to you if you ignore it.",
     "author": "gillian-flynn"
   },
   {
-    "novel": "Gone Girl",
-    "passage": "For several years, I had been bored. Not a whining, restless child's boredom (although I was not above that) but a dense, blanketing malaise. It seemed to me that there was nothing new to be discovered ever again. Our society was utterly, ruinously derivative (although the word derivative as a criticism is itself derivative). We were the first human beings who would never see anything for the first time. We stare at the wonders of the world, dull-eyed, underwhelmed. Mona Lisa, the Pyramids, the Empire State Building. Jungle animals on attack, ancient icebergs collapsing, volcanoes erupting. I can't recall a single amazing thing I have seen firsthand that I didn't immediately reference to a movie or TV show. A fucking commercial. You know the awful singsong of the blasé: Seeeen it. I've literally seen it all, and the worst thing, the thing that makes me want to blow my brains out, is: The secondhand experience is always better. The image is crisper, the view is keener, the camera angle and the soundtrack manipulate my emotions in a way reality can't anymore. I don't know that we are actually human at this point, those of us who are like most of us, who grew up with TV and movies and now the Internet. If we are betrayed, we know the words to say; when a loved one dies, we know the words to say. If we want to play the stud or the smart-ass or the fool, we know the words to say. We are all working from the same dog-eared script. It's a very difficult era in which to be a person, just a real, actual person, instead of a collection of personality traits selected from an endless Automat of characters. And if all of us are play-acting, there can be no such thing as a soul mate, because we don't have genuine souls. It had gotten to the point where it seemed like nothing matters, because I'm not a real person and neither is anyone else. I would have done anything to feel real again.",
+    "novel": "Sharp Objects",
+    "passage": "The face you give the world tells the world how to treat you.",
     "author": "gillian-flynn"
+  },
+  {
+    "novel": "Gone Girl",
+    "passage": "There's something disturbing about recalling a warm memory and feeling utterly cold.",
+    "author": "gillian-flynn"
+  },
+  {
+    "novel": "Gone Girl",
+    "passage": "Tampon commercial, detergent commercial, maxi pad commercial, windex commercial - you'd think all women do is clean and bleed.",
+    "author": "gillian-flynn"
+  },
+  {
+    "novel": "Gone Girl",
+    "passage": "My mother had always told her kids: if you're about to do something, and you want to know if it's a bad idea, imagine seeing it printed in the paper for all the world to see.",
+    "author": "gillian-flynn"
+  },
+  {
+    "novel": "The Martian",
+    "passage": "I can't wait till I have grandchildren. When I was younger, I had to walk to the rim of a crater. Uphill! In an EVA suit! On Mars, ya little shit! Ya hear me? Mars!",
+    "author": "andy-weir"
+  },
+  {
+    "novel": "The Martian",
+    "passage": "Yes, of course duct tape works in a near-vacuum. Duct tape works anywhere. Duct tape is magic and should be worshiped.",
+    "author": "andy-weir"
+  },
+  {
+    "novel": "The Martian",
+    "passage": "He's stuck out there. He thinks he's totally alone and that we all gave up on him. What kind of effect does that have on a man's psychology? He turned back to Venkat. I wonder what he's thinking right now. LOG ENTRY: SOL 61 How come Aquaman can control whales? They're mammals! Makes no sense.",
+    "author": "andy-weir"
+  },
+  {
+    "novel": "The Martian",
+    "passage": "They say once you grow crops somewhere, you have officially ‘colonised' it. So technically, I colonised Mars. In your face, Neil Armstrong!",
+    "author": "andy-weir"
+  },
+  {
+    "novel": "The Martian",
+    "passage": "Actually, I was the very lowest ranked member of the crew. I would only be in command if I were the only remaining person. What do you know? I'm in command",
+    "author": "andy-weir"
   },
   {
     "novel": "The Martian",
@@ -559,23 +584,13 @@ export const PASSAGES: Passage[] = [
     "author": "andy-weir"
   },
   {
-    "novel": "The Martian",
-    "passage": "I guess you could call it a failure, but I prefer the term learning experience.",
+    "novel": "Project Hail Mary",
+    "passage": "I penetrated the outer cell membrane with a nanosyringe. You poked it with a stick? No! I said. Well. Yes. But it was a scientific poke with a very scientific stick.",
     "author": "andy-weir"
   },
   {
     "novel": "The Martian",
-    "passage": "Problem is (follow me closely here, the science is pretty complicated), if I cut a hole in the Hab, the air won't stay inside anymore.",
-    "author": "andy-weir"
-  },
-  {
-    "novel": "The Martian",
-    "passage": "Also, I have duct tape. Ordinary duct tape, like you buy at a hardware store. Turns out even NASA can't improve on duct tape.",
-    "author": "andy-weir"
-  },
-  {
-    "novel": "The Martian",
-    "passage": "Me: This is obviously a clog. How about I take it apart and check the internal tubing? NASA: (after five hours of deliberation) No. You'll fuck it up and die. So I took it apart.",
+    "passage": "If a hiker gets lost in the mountains, people will coordinate a search. If a train crashes, people will line up to give blood. If an earthquake levels a city, people all over the world will send emergency supplies. This is so fundamentally human that it's found in every culture without exception. Yes, there are assholes who just don't care, but they're massively outnumbered by the people who do.",
     "author": "andy-weir"
   },
   {
@@ -585,47 +600,12 @@ export const PASSAGES: Passage[] = [
   },
   {
     "novel": "The Martian",
-    "passage": "If ruining the only religious icon I have leaves me vulnerable to Martian vampires, I'll have to risk it.",
+    "passage": "I don't want to come off as arrogant here, but I'm the best botanist on the planet.",
     "author": "andy-weir"
-  },
-  {
-    "novel": "The Martian",
-    "passage": "Everything went great right up to the explosion.",
-    "author": "andy-weir"
-  },
-  {
-    "novel": "The Martian",
-    "passage": "Maybe I'll post a consumer review. Brought product to surface of Mars. It stopped working. 0/10.",
-    "author": "andy-weir"
-  },
-  {
-    "novel": "The Martian",
-    "passage": "They say once you grow crops somewhere, you have officially ‘colonised' it. So technically, I colonised Mars. In your face, Neil Armstrong!",
-    "author": "andy-weir"
-  },
-  {
-    "novel": "The Titan's Curse",
-    "passage": "Grover was sniffing the wind, looking nervous. He fished out his acorns and threw them into the sand, then played his pipes. They rearranged themselves in a pattern that made no sense to me, but Grover looked concerned. That's us, he said. Those five nuts right there. Which one is me? I asked. The little deformed one, Zoe suggested. Oh, shut up.",
-    "author": "rick-riordan"
   },
   {
     "novel": "The Lightning Thief",
-    "passage": "How did you die?We er. .. .drowned in a bathtub. All three of you?It was a big bathtub.",
-    "author": "rick-riordan"
-  },
-  {
-    "novel": "The Battle of the Labyrinth",
-    "passage": "People are more difficult to work with than machines. And when you break a person, he can't be fixed.",
-    "author": "rick-riordan"
-  },
-  {
-    "novel": "The Lightning Thief",
-    "passage": "Go on with what your heart tells you, or you will lose all.",
-    "author": "rick-riordan"
-  },
-  {
-    "novel": "The Battle of the Labyrinth",
-    "passage": "Don't feel bad, I'm usually about to die.",
+    "passage": "Deadlines just aren't real to me until I'm staring one in the face.",
     "author": "rick-riordan"
   },
   {
@@ -635,7 +615,7 @@ export const PASSAGES: Passage[] = [
   },
   {
     "novel": "The Titan's Curse",
-    "passage": "Wow, Thalia muttered. Apollo is hot. He's the sun god, I said. That's not what I meant.",
+    "passage": "Let us find the dam snack bar, Zoe said. We should eat while we can. Grover cracked a smile. The dam snack bar? Zoe blinked. Yes. What is funny? Nothing, Grover said, trying to keep a straight face. I could use some dam french fries. Even Thalia smiled at that. And I need to use the dam restroom. .. .I started cracking up, and Thalia and Grover joined in, while Zoe just looked at me. I do not understand. I want to use the dam water fountain, Grover said. And. .. Thalia tried to catch her breath. I want to buy a dam t-shirt.",
     "author": "rick-riordan"
   },
   {
@@ -644,34 +624,34 @@ export const PASSAGES: Passage[] = [
     "author": "rick-riordan"
   },
   {
-    "novel": "The Last Olympian",
-    "passage": "With great power. .. comes great need to take a nap. Wake me up later.",
+    "novel": "The Lightning Thief",
+    "passage": "Go on with what your heart tells you, or you will lose all.",
     "author": "rick-riordan"
   },
   {
-    "novel": "The Sea of Monsters",
-    "passage": "The real story of the Fleece: there were these two children of Zeus, Cadmus and Europa, okay? They were about to get offered up as human sacrifices, when they prayed to Zeus to save them. So Zeus sent this magical flying ram with golden wool, which picked them up in Greece and carried them all the way to Colchis in Asia Minor. Well, actually it carried Cadmus. Europa fell off and died along the way, but that's not important. It was probably important to her.",
+    "novel": "The Titan's Curse",
+    "passage": "Wow, Thalia muttered. Apollo is hot. He's the sun god, I said. That's not what I meant.",
     "author": "rick-riordan"
   },
   {
-    "novel": "The Fault in Our Stars",
-    "passage": "Oh, I wouldn't mind, Hazel Grace. It would be a privilege to have my heart broken by you.",
-    "author": "john-green"
+    "novel": "The Lightning Thief",
+    "passage": "What if it lines up like it did in the Trojan War . .. Athena versus Poseidon? I don't know. But I just know that I'll be fighting next to you. Why? Because you're my friend, Seaweed Brain. Any more stupid questions?",
+    "author": "rick-riordan"
   },
   {
-    "novel": "An Abundance of Katherines",
-    "passage": "What is the point of being alive if you don't at least try to do something remarkable?",
-    "author": "john-green"
+    "novel": "The Lightning Thief",
+    "passage": "How did you die? We er. .. .drowned in a bathtub. All three of you? It was a big bathtub.",
+    "author": "rick-riordan"
   },
   {
-    "novel": "The Fault in Our Stars",
-    "passage": "I'm in love with you, he said quietly. Augustus, I said. I am, he said. He was staring at me, and I could see the corners of his eyes crinkling. I'm in love with you, and I'm not in the business of denying myself the simple pleasure of saying true things. I'm in love with you, and I know that love is just a shout into the void, and that oblivion is inevitable, and that we're all doomed and that there will come a day when all our labor has been returned to dust, and I know the sun will swallow the only earth we'll ever have, and I am in love with you.",
-    "author": "john-green"
+    "novel": "The Lightning Thief",
+    "passage": "If my life is going to mean anything, I have to live it myself.",
+    "author": "rick-riordan"
   },
   {
-    "novel": "Looking for Alaska",
-    "passage": "So I walked back to my room and collapsed on the bottom bunk, thinking that if people were rain, I was drizzle and she was a hurricane.",
-    "author": "john-green"
+    "novel": "The Battle of the Labyrinth",
+    "passage": "People are more difficult to work with than machines. And when you break a person, he can't be fixed.",
+    "author": "rick-riordan"
   },
   {
     "novel": "The Fault in Our Stars",
@@ -679,8 +659,18 @@ export const PASSAGES: Passage[] = [
     "author": "john-green"
   },
   {
+    "novel": "Paper Towns",
+    "passage": "What a treacherous thing to believe that a person is more than a person.",
+    "author": "john-green"
+  },
+  {
+    "novel": "Looking for Alaska",
+    "passage": "Thomas Edison's last words were It's very beautiful over there. I don't know where there is, but I believe it's somewhere, and I hope it's beautiful.",
+    "author": "john-green"
+  },
+  {
     "novel": "The Fault in Our Stars",
-    "passage": "Sometimes, you read a book and it fills you with this weird evangelical zeal, and you become convinced that the shattered world will never be put back together unless and until all living humans read the book.",
+    "passage": "As he read, I fell in love the way you fall asleep: slowly, and then all at once.",
     "author": "john-green"
   },
   {
@@ -694,18 +684,33 @@ export const PASSAGES: Passage[] = [
     "author": "john-green"
   },
   {
-    "novel": "Paper Towns",
-    "passage": "What a treacherous thing to believe that a person is more than a person.",
+    "novel": "Looking for Alaska",
+    "passage": "So I walked back to my room and collapsed on the bottom bunk, thinking that if people were rain, I was drizzle and she was a hurricane.",
     "author": "john-green"
   },
   {
     "novel": "The Fault in Our Stars",
-    "passage": "There are infinite numbers between 0 and 1. There's . 1 and . 12 and . 112 and an infinite collection of others. Of course, there is a bigger infinite set of numbers between 0 and 2, or between 0 and a million. Some infinities are bigger than other infinities. A writer we used to like taught us that. There are days, many of them, when I resent the size of my unbounded set. I want more numbers than I'm likely to get, and God, I want more numbers for Augustus Waters than he got. But, Gus, my love, I cannot tell you how thankful I am for our little infinity. I wouldn't trade it for the world. You gave me a forever within the numbered days, and I'm grateful.",
+    "passage": "Sometimes, you read a book and it fills you with this weird evangelical zeal, and you become convinced that the shattered world will never be put back together unless and until all living humans read the book.",
     "author": "john-green"
   },
   {
-    "novel": "On the Come Up",
-    "passage": "High school ain't the end or the beginning. It ain't even in the middle. You 'bout to do big things, whether they see it or not. I see it. Everybody last night saw it. Long as you see it, that's all that matters.",
+    "novel": "The Fault in Our Stars",
+    "passage": "Some infinities are bigger than other infinities.",
+    "author": "john-green"
+  },
+  {
+    "novel": "The Fault in Our Stars",
+    "passage": "Oh, I wouldn't mind, Hazel Grace. It would be a privilege to have my heart broken by you.",
+    "author": "john-green"
+  },
+  {
+    "novel": "The Hate U Give",
+    "passage": "Be roses that grow in the concrete.",
+    "author": "angie-thomas"
+  },
+  {
+    "novel": "The Hate U Give",
+    "passage": "When you fight, you put yourself out there, not caring who you hurt or if you'll get hurt.",
     "author": "angie-thomas"
   },
   {
@@ -720,32 +725,12 @@ export const PASSAGES: Passage[] = [
   },
   {
     "novel": "The Hate U Give",
-    "passage": "That's the problem. We let people say stuff, and they say it so much that it becomes okay to them and normal for us. What's the point of having a voice if you're gonna be silent in those moments you shouldn't be?",
+    "passage": "Neither one of them thought they had much of a choice. If I were them, I'm not sure I'd make a much better one. Guess that makes me a thug too.",
     "author": "angie-thomas"
   },
   {
     "novel": "The Hate U Give",
-    "passage": "When you fight, you put yourself out there, not caring who you hurt or if you'll get hurt.",
-    "author": "angie-thomas"
-  },
-  {
-    "novel": "The Hate U Give",
-    "passage": "Brave doesn't mean you're not scared. It means you go on even though you're scared.",
-    "author": "angie-thomas"
-  },
-  {
-    "novel": "The Hate U Give",
-    "passage": "At an early age I learned that people make mistakes, and you have to decide if their mistakes are bigger than your love for them.",
-    "author": "angie-thomas"
-  },
-  {
-    "novel": "The Hate U Give",
-    "passage": "Don't fall for that trap. That's what they want. If you don't wanna speak out, that's up to you, but don't let it be because you're scared of them. Who do I tell you that you have to fear? Nobody but God.",
-    "author": "angie-thomas"
-  },
-  {
-    "novel": "On the Come Up",
-    "passage": "Church is full of people with plenty to say and nothing to do. You'd think some of them would help us instead of talk about us, but I guess it's easy to say you love Jesus and harder to act like him.",
+    "passage": "Daddy, you're the worst person to watch Harry Potter with. The whole time you're talking about—I deepen my voice—‘Why don't they shoot that nigga Voldemort? ' Ay, it don't make sense that in all them movies and books, nobody thought to shoot him. If it's not that, Momma says, you're giving your ‘Harry Potter is about gangs' theory. It is! he says. Okay, so it is a good theory. Daddy claims the Hogwarts houses are really gangs. They have their own colors, their own hideouts, and they are always riding for each other, like gangs. Harry, Ron, and Hermione never snitch on one another, just like gangbangers. Death Eaters even have matching tattoos. And look at Voldemort. They're scared to say his name. Really, that He Who Must Not Be Named stuff is like giving him a street name. That's some gangbanging shit right there. Y'all know that make a lot of sense, Daddy says. Just 'cause they was in England don't mean they wasn't gangbanging. He looks at me. So you down to hang out with your old man today or what?",
     "author": "angie-thomas"
   },
   {
@@ -754,14 +739,19 @@ export const PASSAGES: Passage[] = [
     "author": "angie-thomas"
   },
   {
-    "novel": "Hopeless",
-    "passage": "The sky is always beautiful. Even when it's dark or rainy or cloudy,it's still beautiful to look at. .. .it'll be there no matter what. .. and I know it'll always be beautiful.",
-    "author": "colleen-hoover"
+    "novel": "On the Come Up",
+    "passage": "Church is full of people with plenty to say and nothing to do. You'd think some of them would help us instead of talk about us, but I guess it's easy to say you love Jesus and harder to act like him.",
+    "author": "angie-thomas"
   },
   {
-    "novel": "Maybe Someday",
-    "passage": "Sometimes in life, we need a few bad days in order to keep the good ones in perspective.",
-    "author": "colleen-hoover"
+    "novel": "The Hate U Give",
+    "passage": "Don't fall for that trap. That's what they want. If you don't wanna speak out, that's up to you, but don't let it be because you're scared of them. Who do I tell you that you have to fear? Nobody but God.",
+    "author": "angie-thomas"
+  },
+  {
+    "novel": "The Hate U Give",
+    "passage": "Sekani means joy and merriment. While he does bring some comedic relief every now and then, I wanted Sekani to be more than that. He represents that pure, genuine black-boy joy that so many young black men possess before life gets in the way, before society stereotypes them.",
+    "author": "angie-thomas"
   },
   {
     "novel": "It Ends with Us",
@@ -770,27 +760,37 @@ export const PASSAGES: Passage[] = [
   },
   {
     "novel": "Slammed",
-    "passage": "There are three questions every woman should be able to answer yes to before they commit to a man. If you answer no to any of the three questions, run like hell. [. .. ]Does he treat you with respect at all times? That's the first question. The second question is, if he is the exact same person twenty years from now that he is today, would you still want to marry him? And finally, does he inspire to be a better person? You find someone you can answer yes to all three, then you've found a good man.",
+    "passage": "Don't take life too seriously. Punch it in the face when it needs a good hit. Laugh at it.",
     "author": "colleen-hoover"
   },
   {
-    "novel": "It Ends with Us",
-    "passage": "Just because someone hurts you doesn't mean you can simply stop loving them. It's not a person's actions that hurt the most. It's the love. If there was no love attached to the action, the pain would be a little easier to bear.",
-    "author": "colleen-hoover"
-  },
-  {
-    "novel": "Hopeless",
-    "passage": "F#%k all the firsts, Sky. The only thing that matters to me with you are the forevers.",
+    "novel": "Slammed",
+    "passage": "Push your boundaries, that's what they're there for.",
     "author": "colleen-hoover"
   },
   {
     "novel": "Ugly Love",
-    "passage": "Love isn't always pretty. Sometimes you spend all your time hoping it'll eventually be something different. Something better. Then, before you know it, you're back to square one, and you lost your heart somewhere along the way.",
+    "passage": "God gives us the ugliness so we don't take the beautiful things in life for granted.",
     "author": "colleen-hoover"
   },
   {
     "novel": "It Ends with Us",
-    "passage": "You can stop swimming now, Lily. We finally reached the shore.",
+    "passage": "There is no such thing as bad people. We're all just people who sometimes do bad things.",
+    "author": "colleen-hoover"
+  },
+  {
+    "novel": "Slammed",
+    "passage": "Question everything. Your love, your religion, your passion. If you don't have questions, you'll never find answers.",
+    "author": "colleen-hoover"
+  },
+  {
+    "novel": "It Ends with Us",
+    "passage": "Just because we didn't end up on the same wave, doesn't mean we aren't still a part of the same ocean.",
+    "author": "colleen-hoover"
+  },
+  {
+    "novel": "Slammed",
+    "passage": "There are three questions every woman should be able to answer yes to before they commit to a man. If you answer no to any of the three questions, run like hell. [. .. ]Does he treat you with respect at all times? That's the first question. The second question is, if he is the exact same person twenty years from now that he is today, would you still want to marry him? And finally, does he inspire to be a better person? You find someone you can answer yes to all three, then you've found a good man.",
     "author": "colleen-hoover"
   },
   {
@@ -799,28 +799,13 @@ export const PASSAGES: Passage[] = [
     "author": "colleen-hoover"
   },
   {
-    "novel": "It Ends with Us",
-    "passage": "He pulls back to look down at me and when he sees my tears, he brings his hands up to my cheeks. In the future. .. if by some miracle you ever find yourself in the position to fall in love again. .. fall in love with me.",
+    "novel": "Maybe Someday",
+    "passage": "Sometimes in life, we need a few bad days in order to keep the good ones in perspective.",
     "author": "colleen-hoover"
   },
   {
     "novel": "Never Let Me Go",
-    "passage": "It never occurred to me that our lives, until then so closely interwoven, could unravel and separate over a thing like that. But the fact was, I suppose, there were powerful tides tugging us apart by then, and it only needed something like that to finish the task. If we'd understood that back then-who knows?-maybe we'd have kept a tighter hold of one another.",
-    "author": "kazuo-ishiguro"
-  },
-  {
-    "novel": "Never Let Me Go",
-    "passage": "Memories, even your most precious ones, fade surprisingly quickly. But I don't go along with that. The memories I value most, I don't ever see them fading.",
-    "author": "kazuo-ishiguro"
-  },
-  {
-    "novel": "The Remains of the Day",
-    "passage": "I can't even say I made my own mistakes. Really - one has to ask oneself - what dignity is there in that?",
-    "author": "kazuo-ishiguro"
-  },
-  {
-    "novel": "Never Let Me Go",
-    "passage": "I keep thinking about this river somewhere, with the water moving really fast. And these two people in the water, trying to hold onto each other, holding on as hard as they can, but in the end it's just too much. The current's too strong. They've got to let go, drift apart. That's how it is with us. It's a shame, Kath, because we've loved each other all our lives. But in the end, we can't stay together forever.",
+    "passage": "It was like when you make a move in chess and just as you take your finger off the piece, you see the mistake you've made, and there's this panic because you don't know yet the scale of disaster you've left yourself open to.",
     "author": "kazuo-ishiguro"
   },
   {
@@ -830,7 +815,32 @@ export const PASSAGES: Passage[] = [
   },
   {
     "novel": "Never Let Me Go",
-    "passage": "You have to accept that sometimes that's how things happen in this world. People's opinions, their feelings, they go one way, then the other. It just so happens you grew up at a certain point in this process.",
+    "passage": "All children have to be deceived if they are to grow up without trauma.",
+    "author": "kazuo-ishiguro"
+  },
+  {
+    "novel": "The Remains of the Day",
+    "passage": "I can't even say I made my own mistakes. Really - one has to ask oneself - what dignity is there in that?",
+    "author": "kazuo-ishiguro"
+  },
+  {
+    "novel": "Never Let Me Go",
+    "passage": "It never occurred to me that our lives, until then so closely interwoven, could unravel and separate over a thing like that. But the fact was, I suppose, there were powerful tides tugging us apart by then, and it only needed something like that to finish the task. If we'd understood that back then-who knows? -maybe we'd have kept a tighter hold of one another.",
+    "author": "kazuo-ishiguro"
+  },
+  {
+    "novel": "The Remains of the Day",
+    "passage": "If you are under the impression you have already perfected yourself, you will never rise to the heights you are no doubt capable of.",
+    "author": "kazuo-ishiguro"
+  },
+  {
+    "novel": "Never Let Me Go",
+    "passage": "She always wanted to believe in things.",
+    "author": "kazuo-ishiguro"
+  },
+  {
+    "novel": "Never Let Me Go",
+    "passage": "Because maybe, in a way, we didn't leave it behind nearly as much as we might once have thought. Because somewhere underneath, a part of us stayed like that: fearful of the world around us, and no matter how much we despised ourselves for it--unable quite to let each other go.",
     "author": "kazuo-ishiguro"
   },
   {
@@ -840,17 +850,7 @@ export const PASSAGES: Passage[] = [
   },
   {
     "novel": "Never Let Me Go",
-    "passage": "We took away your art because we thought it would reveal your souls. Or to put it more finely, we did it to prove you had souls at all.",
-    "author": "kazuo-ishiguro"
-  },
-  {
-    "novel": "The Remains of the Day",
-    "passage": "If you are under the impression you have already perfected yourself, you will never rise to the heights you are no doubt capable of.",
-    "author": "kazuo-ishiguro"
-  },
-  {
-    "novel": "The Remains of the Day",
-    "passage": "But what is the sense in forever speculating what might have happened had such and such a moment turned out differently? One could presumably drive oneself to distraction in this way. In any case, while it is all very well to talk of 'turning points', one can surely only recognize such moments in retrospect. Naturally, when one looks back to such instances today, they may indeed take the appearance of being crucial, precious moments in one's life; but of course, at the time, this was not the impression one had. Rather, it was as though one had available a never-ending number of days, months, years in which to sort out the vagaries of one's relationship with Miss Kenton; an infinite number of further opportunities in which to remedy the effect of this or that misunderstanding. There was surely nothing to indicate at the time that such evidently small incidents would render whole dreams forever irredeemable.",
+    "passage": "Memories, even your most precious ones, fade surprisingly quickly. But I don't go along with that. The memories I value most, I don't ever see them fading.",
     "author": "kazuo-ishiguro"
   },
   {
@@ -859,18 +859,13 @@ export const PASSAGES: Passage[] = [
     "author": "hp-lovecraft"
   },
   {
-    "novel": "The Rats in the Walls",
-    "passage": "Ultimate horror often paralyses memory in a merciful way.",
-    "author": "hp-lovecraft"
-  },
-  {
     "novel": "The Temple",
     "passage": "If I am mad, it is mercy! May the gods pity the man who in his callousness can remain sane to the hideous end!",
     "author": "hp-lovecraft"
   },
   {
-    "novel": "The Thing on the Doorstep",
-    "passage": "There are horrors beyond life's edge that we do not suspect, and once in a while man's evil prying calls them just within our range.",
+    "novel": "The Rats in the Walls",
+    "passage": "Ultimate horror often paralyses memory in a merciful way.",
     "author": "hp-lovecraft"
   },
   {
@@ -879,18 +874,23 @@ export const PASSAGES: Passage[] = [
     "author": "hp-lovecraft"
   },
   {
-    "novel": "Selected Letters III: 1929-1931",
-    "passage": "The basis of all true cosmic horror is violation of the order of nature, and the profoundest violations are always the least concrete and describable.",
+    "novel": "The Complete Works of H.P. Lovecraft",
+    "passage": "Who knows the end? What has risen may sink, and what has sunk may rise. Loathsomeness waits and dreams in the deep, and decay spreads over the tottering cities of men.",
     "author": "hp-lovecraft"
   },
   {
-    "novel": "The Call of Cthulhu",
-    "passage": "The most merciful thing in the world, I think, is the inability of the human mind to correlate all its contents. We live on a placid island of ignorance in the midst of black seas of infinity, and it was not meant that we should voyage far. The sciences, each straining in its own direction, have hitherto harmed us little; but some day the piecing together of dissociated knowledge will open up such terrifying vistas of reality, and of our frightful position therein, that we shall either go mad from the revelation or flee from the deadly light into the peace and safety of a new dark age.",
+    "novel": "The Thing on the Doorstep",
+    "passage": "There are horrors beyond life's edge that we do not suspect, and once in a while man's evil prying calls them just within our range.",
     "author": "hp-lovecraft"
   },
   {
-    "novel": "Collected Essays 5: Philosophy, Autobiography and Miscellany",
-    "passage": "It is good to be a cynic — it is better to be a contented cat — and it is best not to exist at all.",
+    "novel": "Tales of H.P. Lovecraft",
+    "passage": "From even the greatest of horrors irony is seldom absent.",
+    "author": "hp-lovecraft"
+  },
+  {
+    "novel": "Supernatural Horror in Literature",
+    "passage": "The oldest and strongest emotion of mankind is fear, and the oldest and strongest kind of fear is fear of the unknown",
     "author": "hp-lovecraft"
   },
   {
@@ -899,9 +899,19 @@ export const PASSAGES: Passage[] = [
     "author": "hp-lovecraft"
   },
   {
-    "novel": "The Complete Works of H.P. Lovecraft",
-    "passage": "Who knows the end? What has risen may sink, and what has sunk may rise. Loathsomeness waits and dreams in the deep, and decay spreads over the tottering cities of men.",
+    "novel": "The Call of Cthulhu",
+    "passage": "I have looked upon all the universe has to hold of horror, and even the skies of spring and flowers of summer must ever afterward be poison to me.",
     "author": "hp-lovecraft"
+  },
+  {
+    "novel": "Pachinko",
+    "passage": "Learn everything. Fill your mind with knowledge—it's the only kind of power no one can take away from you. Hansu never told him to study, but rather to learn, and it occurred to Noa that there was a marked difference. Learning was like playing, not labor.",
+    "author": "min-jin-lee"
+  },
+  {
+    "novel": "Pachinko",
+    "passage": "All her life, Sunja had heard this sentiment from other women, that they must suffer—suffer as a girl, suffer as a wife, suffer as a mother—die suffering. Go-saeng—the word made her sick. What else was there besides this? She had suffered to create a better life for Noa, and yet it was not enough. Should she have taught her son to suffer the humiliation that she'd drunk like water? In the end, he had refused to suffer the conditions of his birth. Did mothers fail by not telling their sons that suffering would come?",
+    "author": "min-jin-lee"
   },
   {
     "novel": "Pachinko",
@@ -915,17 +925,12 @@ export const PASSAGES: Passage[] = [
   },
   {
     "novel": "Pachinko",
-    "passage": "She wished she could take back the times she had scolded her children just because she was tired. There were so many errors. If life allowed revisions, she would let them stay in their bath a little longer, read them one more story before bed, and fix them another plate of shrimp.",
-    "author": "min-jin-lee"
-  },
-  {
-    "novel": "Pachinko",
-    "passage": "There's nothing fucking worse than knowing that you're just like everybody else.",
-    "author": "min-jin-lee"
-  },
-  {
-    "novel": "Pachinko",
     "passage": "You have this scent, Hana said quietly, I used to think it was your perfume. Joy, nee? I still wear that. I know, Hana said, and Etsuko resisted the urge to sniff her own wrists. It's not just the perfume, though, it's all the other creams and things that you wear, and it makes up this smell. I used to walk around department stores wondering what it was. The smell of mama.",
+    "author": "min-jin-lee"
+  },
+  {
+    "novel": "Pachinko",
+    "passage": "You want to see a very bad man? Make an ordinary man successful beyond his imagination. Let's see how good he is when he can do whatever he wants.",
     "author": "min-jin-lee"
   },
   {
@@ -935,22 +940,17 @@ export const PASSAGES: Passage[] = [
   },
   {
     "novel": "Pachinko",
-    "passage": ". .. a God that did everything we thought was right and good wouldn't be the creator of the universe. He would be our puppet.",
+    "passage": "A man must learn to forgive—to know what is important, that to live without forgiveness was a kind of death with breathing and movement.",
     "author": "min-jin-lee"
   },
   {
     "novel": "Pachinko",
-    "passage": "For a very young woman, his wife could appear ancient in her sternness, able to push herself through the most difficult tasks, but when sad, she had the face of a disappointed child, lost and bereft. He loved her face, how it showed every trace of feeling; she could be silent, but she was incapable of hiding herself from others.",
+    "passage": "She was his lover, but more than anything, she was his wise friend.",
     "author": "min-jin-lee"
   },
   {
     "novel": "Pachinko",
-    "passage": "Living everyday in the presence of those who refuse to acknowledge your humanity takes great courage.",
-    "author": "min-jin-lee"
-  },
-  {
-    "novel": "Pachinko",
-    "passage": "There was consolation: The people you loved, they were always there with you, she had learned. Sometimes, she could be in front of a train kiosk or the window of a bookstore, and she could feel Noa's small hand when he was a boy, and she would close her eyes and think of his sweet grassy smell and remember that he had always tried his best. At those moments, it was good to be alone to hold on to him.",
+    "passage": "She wished she could take back the times she had scolded her children just because she was tired. There were so many errors. If life allowed revisions, she would let them stay in their bath a little longer, read them one more story before bed, and fix them another plate of shrimp.",
     "author": "min-jin-lee"
   }
 ] as const;
