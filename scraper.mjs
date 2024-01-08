@@ -44,7 +44,7 @@ for (const author of authors) {
   const res = await fetch(url);
   const selector = cheerio.load(await res.text());
   const quotes = selector(".quoteText").map((_, e) => parseQuote(selector(e).text(), author)).get();
-  const random = quotes.filter((q) => q.novel).sort(() => Math.random() - Math.random()).slice(0, 3);
+  const random = quotes.filter((q) => q.novel).sort(() => Math.random() - Math.random()).slice(0, 10);
   jsonData.push(...random);
 }
 
